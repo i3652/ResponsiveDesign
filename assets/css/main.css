@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  color: #003b5c;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+#topbar .clearfix{
+  display: inline-flex;
+}
+#topbar .contact-info {
+  display: inline-flex;
+}
+
+
+
+#topbar .topbar__logo{
+  text-align: center;
+  padding: 0 200px;
+  margin-left: 45px;
+}
+#topbar .social-links {
+  display: inline-flex;
+}
+
+#topbar .social-links a {
+  color: #003b5c;
+  padding: 16px 12px;
+  font-size: 14px;
+  transition: 0.3s;
+  float:right;
+  text-decoration: none;
+
+}
+#topbar .social-links a img {
+  width: 20px;
+  padding-top: 16px;
+}
+#topbar .social-links a:hover {
+  color: #2c2c2c;
+}
+header{
+  top: -55px;
+    position: relative;
+}
+.nav{
+  justify-content: center;
+  display: flex;
+  font-size: 14px;
+
+}
+.nav h3{
+  color: #003b5c;
+
+}
+.hero {
+  padding: 0px 0 0 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -49px;
+}
+
+
+.hero .hero__content {
+  padding: 5px;
+}
+
+
+.hero .lg {
+  overflow: hidden;
+  border-radius: 0;
+  width: 650px;
+}
+.hero  .sm {
+  overflow: hidden;
+  border-radius: 0;
+  width: 500px;
+}
+.hero .card-lg{
+  width: 534px;
+  background: #fff;
+  border-top: 4px solid #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  transition: 0.3s;
+  padding: 10px;
+  position: relative;
+  margin-left: 25px;
+  text-align: center;
+  line-height: 30px;
+}
+.hero .card {
+  background: #fff;
+  border-top: 4px solid #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -60px;
+  transition: 0.3s;
+  width: 400px;
+  padding: 10px;
+  position: relative;
+  margin-left: 25px;
+  text-align: center;
+
+
+}
+
+.hero  .hero__header {
+  color: #003b5c;
+  transition: 0.3s;
+  display: inline-flex;
+  font-size: 15px
+
+}
+
+.hero  .hero__header h5{
+  font-size: 13px;
+  color: #808080;
+
+}
+.hero   .hero__text h3{
+  font-size: 30px;
+  color: #003b5c;
+  
+
+}
+.hero .hero__text p{
+  font-size: 18px;
+  color: #808080;
+
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 30px 0;
+  overflow: hidden;
+  
+}
+
+.section-bg {
+  background-color: #f2f5fa;
+}
+
+.content__title {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #003b5c;
+  justify-content: center;
+  display: flex;
+
+}
+
+.content__title h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  border: 1px solid #e5e5e5;
+  box-shadow: 7px 5px rgb(0 0 0 / 10%);
+  padding: 5px 10px;
+  border-right: 10px;
+  letter-spacing: 3px;
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  color: #808080;
+  justify-content: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.content .content__subtitle{
+  display: flex;
+  justify-content: center;
+  margin-right: -119px;
+
+}
+.content .content__subtitle__link{
+  color: red;
+  text-decoration: none;
+  position: relative;
+  z-index: 999;
+  font-size: 15px;
+  right: -176px;
+
+  
+}
+.content .content__list{
+  display: flex;
+  justify-content: center;
+}
+.content .content__list .card{
+ padding: 10px;
+ width: 400px;
+ color: rgb(66, 106, 124);
+
+}
+.content .card__subtitle{
+  color: #808080;
+
+}
+.content .content__list .card .card__header{
+  display: inline-flex;
+  font-size: 12px;
+  letter-spacing: 1px;
+
+}
+.content .content__list .card  p{
+  font-size: 18px;
+  font-weight: 700;
+  top: -26px;
+  position: relative;
+
+}
+.content .content__list .card .card__link{
+  text-decoration: none;
+  color: red;
+  top: -26px;
+  position: relative;
+
+
+}
+
+.newsletter{
+  padding: 100px ;
+  color: rgb(255, 255, 255);
+}
+.newsletter .newsletter__content{
+text-align: center;
+}
+.newsletter .newsletter__title{
+  font-size: 50px;
+}
+.newsletter .newsletter__text{
+  font-size: 25px;
+}
+.newsletter button{
+  font-size:20px;
+  padding: 15px 50px;
+  border-bottom:5px solid rgb(236, 117, 81);
+  border-right: 5px solid rgb(236, 117, 81);
+  color: #003b5c;
+  border-radius: 5px;
+}
+footer{
+  background: rgb(236, 117, 81);
+  padding: 50px 0;
+}
+footer .footer{
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer .footer__item {
+  list-style-type: none;
+  padding: 40px;
+  width: 150px;
+  color: #f2f5fa;
+
+}
+footer .footer .footer__item ul li {
+  line-height: 30px;
+}
+footer .footer .footer__button{
+  background: none;
+  border: 1px solid #e5e5e5;
+  box-shadow: 11px 10px #0000003d;
+  color: #fff;
+  padding: 15px;
+  width: 200px;
+}
+footer .footer .footer__item .footer__list__media{
+  display: flex;
+  justify-content: center;
+}
+footer .footer .footer__item .footer__list__media li{
+  padding: 10px;
+
+}
+footer .footer__legals .divider{
+  border-top: 2px solid #fff;
+  padding: 10px;
+}
+footer .footer__legals .wrapper{
+  width: 100%;
+  color: #fff;
+  
+}
+footer .footer__legals__notice{
+  float: left;
+
+}
+footer .footer__legals__copyright{
+  float: right;
+
+}
